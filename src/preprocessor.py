@@ -1,5 +1,3 @@
-import csv
-
 # convert a number strings into numbers
 # convert other input into 0
 def to_number(data):
@@ -8,21 +6,16 @@ def to_number(data):
             return int(data)
         except:
             return 0
-
-
-# read the CSV file at given path
-def read_csv_file(file_path):
-    with open(file_path, "r") as in_file:
-        reader = csv.reader(in_file)
-        for row in reader:
-            print(" ".join(row))
             
         
-# exclude the columns in the argument array and return input vector
-def create_input_vector(exclude, row):
-    ini_vector = row.split(",")
+# create input vector and target vector
+# ini_vector: initial data
+# exclude: array index of the columns that should be excluded to create input
+# target: array index of the target class
+def create_vector(ini_vector,exclude,target):
     refac_vector = []
-    if len(exclude) == 0:
+    target_vector = []
+    if (len(exclude) == 0 and len(target) == 0):
         for value in ini_vector:
             int_value = to_number(value)
             refac_vector.append(int_value)
@@ -32,10 +25,15 @@ def create_input_vector(exclude, row):
             i += 1
             if i in exclude:
                 continue
+            elif i in target:
+                if value == '2':
+                    target_vector.append(-1)
+                elif value == '4':
+                    target_vector.append(1)
             else:
                 int_value = to_number(value)
                 refac_vector.append(int_value)
-    return refac_vector
+    return [refac_vector, target_vector]
         
         
         
