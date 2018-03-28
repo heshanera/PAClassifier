@@ -6,8 +6,10 @@ input_vector_size = 9
 weight_vector = numpy.array([0] * input_vector_size)
 data = []
 data_size = 0;
-predictions = [0]*2
+predictions_arr = []
 C = 1
+trainig_portion = 2/3
+testing_portion = 1/3
 
 # read the CSV file at given path
 def load_data(file_path):
@@ -34,11 +36,14 @@ def train(training_set):
 # testing_set: data portion for testing
 def test(testing_set):
     global data
+    global predictions_arr
+    predictions = [0]*2
     test_data_size = int(data_size * testing_set)
     for i in range(data_size-test_data_size, data_size):
         vectors = create_vector(data[i],[0],[10])
         result = predict(vectors)
         predictions[result] += 1
+    predictions_arr.append(predictions)
         
 
 # predict the value using PA-I 
@@ -68,27 +73,58 @@ def predict(vectors):
         return 0 # incorrect prediction
     
 
-def print_results():
+def print_results(trainig_iterations):
     global data_size
-    test_data_size = int(data_size*(1/3))
+    global predictions_arr
+    test_data_size = int(data_size*(testing_portion))
+    print('Test Data Size: ' + str(test_data_size) + '\n')
 #    print('data size: ' + str(test_data_size))
 #    print('correct: ' + str(predictions[1]))
 #    print('incorrect: ' + str(predictions[0]))
 #    print('accuracy: ' + "{:.2%}".format(predictions[1]/test_data_size))
 
-    print("%s\t%s\t\t%s\t%s" % ('data size', 'correct', 'incorrect', 'accuracy'))
-    print("---------------------------------------------------------------")
-    print("%d\t\t%d\t\t%d\t\t%s" % (test_data_size, predictions[1], predictions[0], "{:.2%}".format(predictions[1]/test_data_size)))
-
+#    print("----------------------------------------------------------")
+#    print("%s\t%s\t\t%s\t%s" % ('data size', 'correct', 'incorrect', 'accuracy'))
+#    print("----------------------------------------------------------")
+#    print("%d\t\t%d\t\t%d\t\t%s" % (test_data_size, predictions[1], predictions[0], "{:.2%}".format(predictions[1]/test_data_size)))
+#    print("----------------------------------------------------------")
+    
+    titles = ['Iterations', 'Correct', 'Incorrect', 'Accuracy']
+    
+    data = [titles]
+    for i, d in enumerate(data):
+        line = '| '.join(str(x).ljust(12) for x in d)
+        print(line)
+        if i == 0:
+            print('-' * len(line))
+    
+    index = 0
+    for predictions in predictions_arr:
+        data = list(zip([trainig_iterations[index]], [predictions[1]], [predictions[0]], ["{:.2%}".format(predictions[1]/test_data_size)]))
+        index += 1
+        for i, d in enumerate(data):
+            line = '| '.join(str(x).ljust(12) for x in d)
+            print(line)
+            
+def reset_weights():
+    global weight_vector
+    weight_vector = numpy.array([0] * input_vector_size)
+    
 
 def main():
+    
+    global trainig_portion
+    global testing_portion
+    
     load_data('../datasets/breast_cancer_wisconsin_dataset.csv')
     
-    for i in range(2):
-        train(2/3) # train using 2/3 data
-    
-    test(1/3) # test using 1/3 data
-    print_results()
+    iterations_arr = [1,2,10]
+    for trainig_iterations in iterations_arr:
+        for i in range(trainig_iterations):
+            train(trainig_portion) # train using 2/3 data
+        test(testing_portion) # test using 1/3 data
+        reset_weights()
+    print_results(iterations_arr)
   
 if __name__== "__main__":
   main()
