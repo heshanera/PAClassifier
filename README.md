@@ -1,6 +1,6 @@
 # PAClassifier
 
-A Pasive Aggressive Classifier Implemented using a PA-I algorithm for binary classification
+An Online Pasive Aggressive Binary Classifier
 
 ## Dataset
 
