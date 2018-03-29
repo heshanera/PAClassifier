@@ -1,6 +1,6 @@
 # PAClassifier
 
-An Online Passive Aggressive Binary Classifier
+Online Passive Aggressive Binary Classifier
 
 ## Dataset
 
