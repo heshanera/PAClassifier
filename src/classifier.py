@@ -29,7 +29,7 @@ def train(training_set):
     train_data_size = int(data_size * training_set)
     for i in range(train_data_size):
         vectors = create_vector(data[i],[0],[10])
-        predict(vectors)
+        classify(vectors)
         
 
 # test using the adjusted weights
@@ -46,14 +46,14 @@ def test(testing_set):
     predictions_arr.append(predictions)
         
 
-# predict the value using PA-I 
+# classify the value using PA-I 
 # vectors: array of the input vector and the target class vector
-def predict(vectors):
+def classify(vectors):
     global weight_vector
     global C
     
     input_vector = numpy.array(vectors[0])
-    input_vector = input_vector / numpy.linalg.norm(input_vector)
+#    input_vector = input_vector / numpy.linalg.norm(input_vector)
     target_vector = vectors[1]
     
     prediction = target_vector[0] * numpy.dot( weight_vector, input_vector)
@@ -66,6 +66,20 @@ def predict(vectors):
     tmp_var = delta*target_vector[0]
     tmp_vec = [val * tmp_var for val in input_vector]
     weight_vector = weight_vector + tmp_vec
+    
+    
+# predict the class
+# vectors: array of the input vector and the target class vector
+def predict(vectors):
+    global weight_vector
+    global C
+    
+    input_vector = numpy.array(vectors[0])
+#    input_vector = input_vector / numpy.linalg.norm(input_vector)
+    target_vector = vectors[1]
+    
+    prediction = target_vector[0] * numpy.dot( weight_vector, input_vector)
+    loss = max(0, 1 - prediction)  
     
     if loss == 0:
         return 1 # correct prediction
