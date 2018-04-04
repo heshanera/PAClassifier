@@ -17,6 +17,6 @@ O. L. Mangasarian, R. Setiono, and W.H. Wolberg: "Pattern recognition via linear
 
 | Iterations    | Correct       | Incorrect | Accuracy  |
 | :-----------: |:-------------:| :--------:| :--------:|
-| 1             | 180           | 53        | 77.25%    |      
-| 2             | 187           | 46        | 80.26%    |  
-| 10            | 194           | 39        | 83.26%    |
+| 1             | 156           | 77        | 66.95%    |  
+| 2             | 179           | 54        | 76.82%    |   
+| 10            | 189           | 44        | 81.12%    |
