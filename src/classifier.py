@@ -100,10 +100,10 @@ def predict(vectors):
 #    print("id: ", vectors[2][0])
 #    print("prediction: " , prediction)
 #    print("target class: ", target_vector[0])
-#    if absPrediction > 0:
-#        classfiction = 'correct'
-#    else:
-#        classfiction = 'incorrect'    
+    if absPrediction > 0:
+        classfiction = 'correct'
+    else:
+        classfiction = 'incorrect'    
 #    print("classification: ", classfiction)
 #    print()
     

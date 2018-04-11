@@ -13,6 +13,15 @@ O. L. Mangasarian, R. Setiono, and W.H. Wolberg: "Pattern recognition via linear
 ## Results
 
 *Training Data Size: `466`*   
+
+| Iterations  | Correct     | Incorrect   | Training    |
+| :----------:|:-----------:|:-----------:|:-----------:|
+| 1           | 256         | 210         | 54.94%      |
+| 2           | 557         | 375         | 59.76%      |
+| 10          | 3095        | 1565        | 66.42%      |
+
+
+
 *Testing Data Size: `233`*
 
 | Iterations    | Correct       | Incorrect | Accuracy  |
