@@ -1,0 +1,1165 @@
+id: 1298416
+prediction: 1.1435393128548927
+target class: 1
+classification: correct
+
+id: 1299596
+prediction: 2.604507358422313
+target class: 1
+classification: correct
+
+id: 1105524
+prediction: -1.796093817166732
+target class: -1
+classification: correct
+
+id: 1181685
+prediction: -1.3258301948593685
+target class: -1
+classification: correct
+
+id: 1211594
+prediction: -1.0938022265449794
+target class: -1
+classification: correct
+
+id: 1238777
+prediction: -1.8156979338537482
+target class: -1
+classification: correct
+
+id: 1257608
+prediction: -1.281711605653506
+target class: -1
+classification: correct
+
+id: 1269574
+prediction: -1.796093817166732
+target class: -1
+classification: correct
+
+id: 1277145
+prediction: -1.9866065723343747
+target class: -1
+classification: correct
+
+id: 1287282
+prediction: -1.6055810619990893
+target class: -1
+classification: correct
+
+id: 1296025
+prediction: -1.5137395739678956
+target class: -1
+classification: correct
+
+id: 1296263
+prediction: -1.796093817166732
+target class: -1
+classification: correct
+
+id: 1296593
+prediction: -1.2808284824258847
+target class: -1
+classification: correct
+
+id: 1299161
+prediction: 5.957286573469365
+target class: 1
+classification: correct
+
+id: 1301945
+prediction: -1.0911988504858634
+target class: -1
+classification: correct
+
+id: 1302428
+prediction: 0.2494359411538455
+target class: -1
+classification: incorrect
+
+id: 1318169
+prediction: -4.83020704918068
+target class: 1
+classification: incorrect
+
+id: 474162
+prediction: 2.796050329303853
+target class: 1
+classification: correct
+
+id: 787451
+prediction: -1.7042523291355383
+target class: -1
+classification: correct
+
+id: 1002025
+prediction: 0.7239701663111332
+target class: -1
+classification: incorrect
+
+id: 1070522
+prediction: -1.0938022265449794
+target class: -1
+classification: correct
+
+id: 1073960
+prediction: 2.456493268328149
+target class: 1
+classification: correct
+
+id: 1076352
+prediction: 3.7800740575815435
+target class: 1
+classification: correct
+
+id: 1084139
+prediction: -1.491958381800679
+target class: 1
+classification: incorrect
+
+id: 1115293
+prediction: -1.224555551663804
+target class: -1
+classification: correct
+
+id: 1119189
+prediction: 5.670259764024943
+target class: 1
+classification: correct
+
+id: 1133991
+prediction: -1.284314981712622
+target class: -1
+classification: correct
+
+id: 1142706
+prediction: 6.125824852442773
+target class: 1
+classification: correct
+
+id: 1155967
+prediction: -0.8689071828534369
+target class: -1
+classification: correct
+
+id: 1170945
+prediction: -1.0938022265449794
+target class: -1
+classification: correct
+
+id: 1181567
+prediction: -0.3291478298152929
+target class: -1
+classification: correct
+
+id: 1182404
+prediction: -1.090315727258242
+target class: -1
+classification: correct
+
+id: 1204558
+prediction: -2.1797227035611333
+target class: -1
+classification: correct
+
+id: 1217952
+prediction: -2.1797227035611333
+target class: -1
+classification: correct
+
+id: 1224565
+prediction: -2.94437710029082
+target class: -1
+classification: correct
+
+id: 1238186
+prediction: -2.1797227035611333
+target class: -1
+classification: correct
+
+id: 1253917
+prediction: -1.9990120067369985
+target class: -1
+classification: correct
+
+id: 1265899
+prediction: -2.5633515899555346
+target class: -1
+classification: correct
+
+id: 1268766
+prediction: -1.224555551663804
+target class: -1
+classification: correct
+
+id: 1277268
+prediction: -0.194024882182109
+target class: -1
+classification: correct
+
+id: 1286943
+prediction: 1.589263103019277
+target class: 1
+classification: correct
+
+id: 1295508
+prediction: -0.1870106479465682
+target class: -1
+classification: correct
+
+id: 1297327
+prediction: -1.9866065723343747
+target class: -1
+classification: correct
+
+id: 1297522
+prediction: -1.4150683068314467
+target class: -1
+classification: correct
+
+id: 1298360
+prediction: -1.224555551663804
+target class: -1
+classification: correct
+
+id: 1299924
+prediction: -2.370235458728776
+target class: -1
+classification: correct
+
+id: 1299994
+prediction: -1.9866065723343747
+target class: -1
+classification: correct
+
+id: 1304595
+prediction: -1.0938022265449794
+target class: -1
+classification: correct
+
+id: 1306282
+prediction: 4.7745600027740895
+target class: 1
+classification: correct
+
+id: 1313325
+prediction: 6.698255484249837
+target class: 1
+classification: correct
+
+id: 1320077
+prediction: -0.3291478298152929
+target class: -1
+classification: correct
+
+id: 1320077
+prediction: -0.712776716209694
+target class: -1
+classification: correct
+
+id: 1320304
+prediction: -1.1425161219761182
+target class: -1
+classification: correct
+
+id: 1330439
+prediction: 3.0292639946238107
+target class: 1
+classification: correct
+
+id: 333093
+prediction: -2.119963273512315
+target class: -1
+classification: correct
+
+id: 369565
+prediction: -2.6915015390152432
+target class: -1
+classification: correct
+
+id: 412300
+prediction: -0.727891809648892
+target class: 1
+classification: incorrect
+
+id: 672113
+prediction: 3.517134527041853
+target class: 1
+classification: correct
+
+id: 749653
+prediction: -1.9892099483934906
+target class: -1
+classification: correct
+
+id: 769612
+prediction: -1.424870365174955
+target class: -1
+classification: correct
+
+id: 769612
+prediction: -1.796093817166732
+target class: -1
+classification: correct
+
+id: 798429
+prediction: -2.5633515899555346
+target class: -1
+classification: correct
+
+id: 807657
+prediction: -1.4317001442802098
+target class: -1
+classification: correct
+
+id: 8233704
+prediction: -1.284314981712622
+target class: -1
+classification: correct
+
+id: 837480
+prediction: 1.306593308939584
+target class: 1
+classification: correct
+
+id: 867392
+prediction: -1.1915903704538064
+target class: -1
+classification: correct
+
+id: 869828
+prediction: -1.0964056026040951
+target class: -1
+classification: correct
+
+id: 1043068
+prediction: -1.9892099483934906
+target class: -1
+classification: correct
+
+id: 1056171
+prediction: -1.7986971932258475
+target class: -1
+classification: correct
+
+id: 1061990
+prediction: -1.2463941412307986
+target class: -1
+classification: correct
+
+id: 1113061
+prediction: -2.7538643451231772
+target class: -1
+classification: correct
+
+id: 1116192
+prediction: -2.4715101019243404
+target class: -1
+classification: correct
+
+id: 1135090
+prediction: -2.1797227035611333
+target class: -1
+classification: correct
+
+id: 1145420
+prediction: -2.5607482138964186
+target class: -1
+classification: correct
+
+id: 1158157
+prediction: -2.024387157489697
+target class: -1
+classification: correct
+
+id: 1171578
+prediction: -1.6055810619990893
+target class: -1
+classification: correct
+
+id: 1174841
+prediction: -0.5750503925173943
+target class: -1
+classification: correct
+
+id: 1184586
+prediction: -2.1797227035611333
+target class: -1
+classification: correct
+
+id: 1186936
+prediction: -1.05327801000404
+target class: -1
+classification: correct
+
+id: 1197527
+prediction: -2.370235458728776
+target class: -1
+classification: correct
+
+id: 1222464
+prediction: 8.425337574520267
+target class: 1
+classification: correct
+
+id: 1240603
+prediction: -0.5196605849829355
+target class: -1
+classification: correct
+
+id: 1240603
+prediction: -0.7101733401505783
+target class: -1
+classification: correct
+
+id: 1241035
+prediction: 1.8468509817170948
+target class: 1
+classification: correct
+
+id: 1287971
+prediction: -1.9892099483934906
+target class: -1
+classification: correct
+
+id: 1289391
+prediction: -1.9918133244526062
+target class: -1
+classification: correct
+
+id: 1299924
+prediction: -1.469533170856292
+target class: -1
+classification: correct
+
+id: 1306339
+prediction: 1.1109776963496711
+target class: -1
+classification: incorrect
+
+id: 1313658
+prediction: -1.6055810619990893
+target class: -1
+classification: correct
+
+id: 1313982
+prediction: -0.7087836537711792
+target class: -1
+classification: correct
+
+id: 1321264
+prediction: -0.3059847069488033
+target class: -1
+classification: correct
+
+id: 1321321
+prediction: -1.625185178686106
+target class: -1
+classification: correct
+
+id: 1321348
+prediction: -1.7986971932258475
+target class: -1
+classification: correct
+
+id: 1321931
+prediction: -2.370235458728776
+target class: -1
+classification: correct
+
+id: 1321942
+prediction: -2.7538643451231772
+target class: -1
+classification: correct
+
+id: 1321942
+prediction: -2.7538643451231772
+target class: -1
+classification: correct
+
+id: 1328331
+prediction: -1.9918133244526062
+target class: -1
+classification: correct
+
+id: 1328755
+prediction: -1.9892099483934906
+target class: -1
+classification: correct
+
+id: 1331405
+prediction: -2.445260069560995
+target class: -1
+classification: correct
+
+id: 1331412
+prediction: 4.452221678930724
+target class: 1
+classification: correct
+
+id: 1333104
+prediction: -2.090484591589055
+target class: -1
+classification: correct
+
+id: 1334071
+prediction: -1.4880261010829763
+target class: -1
+classification: correct
+
+id: 1343068
+prediction: -0.46638813754371955
+target class: 1
+classification: incorrect
+
+id: 1343374
+prediction: 1.6009938156146277
+target class: 1
+classification: correct
+
+id: 1344121
+prediction: 0.3559304871023933
+target class: 1
+classification: correct
+
+id: 142932
+prediction: 4.143927606687884
+target class: 1
+classification: correct
+
+id: 183936
+prediction: -1.9892099483934906
+target class: -1
+classification: correct
+
+id: 324382
+prediction: -1.6081844380582053
+target class: -1
+classification: correct
+
+id: 378275
+prediction: 1.724409885479508
+target class: 1
+classification: correct
+
+id: 385103
+prediction: -2.4715101019243404
+target class: -1
+classification: correct
+
+id: 690557
+prediction: -2.370235458728776
+target class: -1
+classification: correct
+
+id: 695091
+prediction: -1.6081844380582053
+target class: -1
+classification: correct
+
+id: 695219
+prediction: -1.6081844380582053
+target class: -1
+classification: correct
+
+id: 824249
+prediction: -1.9918133244526062
+target class: -1
+classification: correct
+
+id: 871549
+prediction: -2.087881215529939
+target class: -1
+classification: correct
+
+id: 878358
+prediction: 4.289807948844694
+target class: 1
+classification: correct
+
+id: 1107684
+prediction: 6.493641760799811
+target class: 1
+classification: correct
+
+id: 1115762
+prediction: -1.6055810619990893
+target class: -1
+classification: correct
+
+id: 1217717
+prediction: -1.9784608100622134
+target class: -1
+classification: correct
+
+id: 1239420
+prediction: -1.224555551663804
+target class: -1
+classification: correct
+
+id: 1254538
+prediction: 5.102609961304755
+target class: 1
+classification: correct
+
+id: 1261751
+prediction: -2.2521439383342363
+target class: -1
+classification: correct
+
+id: 1268275
+prediction: 1.5731333692403267
+target class: 1
+classification: correct
+
+id: 1272166
+prediction: -1.9866065723343747
+target class: -1
+classification: correct
+
+id: 1294261
+prediction: 2.0117560604514413
+target class: 1
+classification: correct
+
+id: 1295529
+prediction: 3.6162265471771815
+target class: 1
+classification: correct
+
+id: 1298484
+prediction: 1.1086316786574337
+target class: 1
+classification: correct
+
+id: 1311875
+prediction: -1.7042523291355383
+target class: -1
+classification: correct
+
+id: 1315506
+prediction: 3.9375913709234305
+target class: 1
+classification: correct
+
+id: 1320141
+prediction: -2.370235458728776
+target class: -1
+classification: correct
+
+id: 1325309
+prediction: -1.8973684603622964
+target class: -1
+classification: correct
+
+id: 1333063
+prediction: -2.1891558587255036
+target class: -1
+classification: correct
+
+id: 1333495
+prediction: -1.9892099483934906
+target class: -1
+classification: correct
+
+id: 1334659
+prediction: 0.46164196901913657
+target class: -1
+classification: incorrect
+
+id: 1336798
+prediction: -1.9892099483934906
+target class: -1
+classification: correct
+
+id: 1344449
+prediction: -0.712776716209694
+target class: -1
+classification: correct
+
+id: 1350568
+prediction: -2.1797227035611333
+target class: -1
+classification: correct
+
+id: 1352663
+prediction: -0.6059201737527554
+target class: 1
+classification: incorrect
+
+id: 188336
+prediction: -1.7790932486740672
+target class: 1
+classification: incorrect
+
+id: 352431
+prediction: 0.06137122548292351
+target class: 1
+classification: correct
+
+id: 353098
+prediction: -1.6153831203425977
+target class: -1
+classification: correct
+
+id: 411453
+prediction: -1.224555551663804
+target class: -1
+classification: correct
+
+id: 557583
+prediction: 1.0296936558627845
+target class: 1
+classification: correct
+
+id: 636375
+prediction: -1.9866065723343747
+target class: -1
+classification: correct
+
+id: 736150
+prediction: 0.792341032334738
+target class: 1
+classification: correct
+
+id: 803531
+prediction: 3.9795697095596707
+target class: 1
+classification: correct
+
+id: 822829
+prediction: 0.6711780995764007
+target class: 1
+classification: correct
+
+id: 1016634
+prediction: -0.3871410134088674
+target class: -1
+classification: correct
+
+id: 1031608
+prediction: -0.9032894713773366
+target class: -1
+classification: correct
+
+id: 1041043
+prediction: -1.6150142171634596
+target class: -1
+classification: correct
+
+id: 1042252
+prediction: -1.9892099483934906
+target class: -1
+classification: correct
+
+id: 1057067
+prediction: -0.6749961310543715
+target class: -1
+classification: correct
+
+id: 1061990
+prediction: -2.1797227035611333
+target class: -1
+classification: correct
+
+id: 1073836
+prediction: -2.370235458728776
+target class: -1
+classification: correct
+
+id: 1083817
+prediction: -1.9892099483934906
+target class: -1
+classification: correct
+
+id: 1096352
+prediction: -2.3071371202205326
+target class: -1
+classification: correct
+
+id: 1140597
+prediction: -2.1074853322169553
+target class: -1
+classification: correct
+
+id: 1149548
+prediction: -1.224555551663804
+target class: -1
+classification: correct
+
+id: 1174009
+prediction: -1.2941170400561304
+target class: -1
+classification: correct
+
+id: 1183596
+prediction: -0.8987353937326911
+target class: -1
+classification: correct
+
+id: 1190386
+prediction: -1.4583732993195277
+target class: 1
+classification: incorrect
+
+id: 1190546
+prediction: -0.031675101875132006
+target class: -1
+classification: correct
+
+id: 1213273
+prediction: -1.4150683068314467
+target class: -1
+classification: correct
+
+id: 1218982
+prediction: -1.796093817166732
+target class: -1
+classification: correct
+
+id: 1225382
+prediction: -0.9066327511958537
+target class: -1
+classification: correct
+
+id: 1235807
+prediction: -2.370235458728776
+target class: -1
+classification: correct
+
+id: 1238777
+prediction: -1.224555551663804
+target class: -1
+classification: correct
+
+id: 1253955
+prediction: 0.5995000965884248
+target class: 1
+classification: correct
+
+id: 1257366
+prediction: -1.6055810619990893
+target class: -1
+classification: correct
+
+id: 1260659
+prediction: -0.7585183324025794
+target class: -1
+classification: correct
+
+id: 1268952
+prediction: -1.4797047412151614
+target class: 1
+classification: incorrect
+
+id: 1275807
+prediction: 0.0803878108312146
+target class: -1
+classification: incorrect
+
+id: 1277792
+prediction: -1.796093817166732
+target class: -1
+classification: correct
+
+id: 1277792
+prediction: -1.625185178686106
+target class: -1
+classification: correct
+
+id: 1285722
+prediction: -1.4346724235184634
+target class: -1
+classification: correct
+
+id: 1288608
+prediction: -1.9892099483934906
+target class: -1
+classification: correct
+
+id: 1290203
+prediction: -1.9892099483934906
+target class: -1
+classification: correct
+
+id: 1294413
+prediction: -1.224555551663804
+target class: -1
+classification: correct
+
+id: 1299596
+prediction: -1.4150683068314467
+target class: -1
+classification: correct
+
+id: 1303489
+prediction: -1.9892099483934906
+target class: -1
+classification: correct
+
+id: 1311033
+prediction: -0.2364232185564773
+target class: -1
+classification: correct
+
+id: 1311108
+prediction: -0.8631341580155351
+target class: -1
+classification: correct
+
+id: 1315807
+prediction: -5.105700932227345
+target class: 1
+classification: incorrect
+
+id: 1318671
+prediction: -1.9892099483934906
+target class: -1
+classification: correct
+
+id: 1319609
+prediction: -1.28273318330623
+target class: -1
+classification: correct
+
+id: 1323477
+prediction: -0.5409849545014461
+target class: -1
+classification: correct
+
+id: 1324572
+prediction: -2.2521439383342363
+target class: -1
+classification: correct
+
+id: 1324681
+prediction: -2.1797227035611333
+target class: -1
+classification: correct
+
+id: 1325159
+prediction: -2.372838834787892
+target class: -1
+classification: correct
+
+id: 1326892
+prediction: -1.9892099483934906
+target class: -1
+classification: correct
+
+id: 1330361
+prediction: -2.370235458728776
+target class: -1
+classification: correct
+
+id: 1333877
+prediction: -4.28910183172073
+target class: -1
+classification: correct
+
+id: 1334015
+prediction: 4.682340985418129
+target class: 1
+classification: correct
+
+id: 1334667
+prediction: -1.224555551663804
+target class: -1
+classification: correct
+
+id: 1339781
+prediction: -1.6081844380582053
+target class: -1
+classification: correct
+
+id: 1339781
+prediction: -2.5633515899555346
+target class: -1
+classification: correct
+
+id: 13454352
+prediction: -1.043475951660532
+target class: -1
+classification: correct
+
+id: 1345452
+prediction: -1.043475951660532
+target class: -1
+classification: correct
+
+id: 1345593
+prediction: -1.6277885547452215
+target class: -1
+classification: correct
+
+id: 1347749
+prediction: -1.224555551663804
+target class: -1
+classification: correct
+
+id: 1347943
+prediction: -1.3101448603727306
+target class: -1
+classification: correct
+
+id: 1348851
+prediction: -2.372838834787892
+target class: -1
+classification: correct
+
+id: 1350319
+prediction: -2.7102184614361544
+target class: 1
+classification: incorrect
+
+id: 1350423
+prediction: 5.629779707995735
+target class: 1
+classification: correct
+
+id: 1352848
+prediction: 5.492738270084511
+target class: 1
+classification: correct
+
+id: 1353092
+prediction: -1.4863500480552672
+target class: -1
+classification: correct
+
+id: 1354840
+prediction: -2.182326079620249
+target class: -1
+classification: correct
+
+id: 1354840
+prediction: -1.188103871167069
+target class: -1
+classification: correct
+
+id: 1355260
+prediction: -1.6081844380582053
+target class: -1
+classification: correct
+
+id: 1365075
+prediction: -0.949031087570222
+target class: -1
+classification: correct
+
+id: 1365328
+prediction: -1.3258301948593685
+target class: -1
+classification: correct
+
+id: 1368267
+prediction: -1.9866065723343747
+target class: -1
+classification: correct
+
+id: 1368273
+prediction: -1.224555551663804
+target class: -1
+classification: correct
+
+id: 1368882
+prediction: -1.4150683068314467
+target class: -1
+classification: correct
+
+id: 1369821
+prediction: 2.662704264999078
+target class: 1
+classification: correct
+
+id: 1371026
+prediction: 7.925979384958919
+target class: 1
+classification: correct
+
+id: 1371920
+prediction: -2.6357728247286376
+target class: -1
+classification: correct
+
+id: 466906
+prediction: -1.224555551663804
+target class: -1
+classification: correct
+
+id: 466906
+prediction: -1.224555551663804
+target class: -1
+classification: correct
+
+id: 534555
+prediction: -1.224555551663804
+target class: -1
+classification: correct
+
+id: 536708
+prediction: -1.224555551663804
+target class: -1
+classification: correct
+
+id: 566346
+prediction: -1.7530269076044118
+target class: -1
+classification: correct
+
+id: 603148
+prediction: -1.796093817166732
+target class: -1
+classification: correct
+
+id: 654546
+prediction: -4.671224777452524
+target class: -1
+classification: correct
+
+id: 654546
+prediction: -0.8631341580155351
+target class: -1
+classification: correct
+
+id: 695091
+prediction: 6.425392876187811
+target class: 1
+classification: correct
+
+id: 714039
+prediction: -1.6055810619990893
+target class: -1
+classification: correct
+
+id: 763235
+prediction: -2.4815912663633077
+target class: -1
+classification: correct
+
+id: 776715
+prediction: -2.155140482608522
+target class: -1
+classification: correct
+
+id: 841769
+prediction: -1.4150683068314467
+target class: -1
+classification: correct
+
+id: 888820
+prediction: 1.3677039733356657
+target class: 1
+classification: correct
+
+id: 897471
+prediction: 2.3781909249510975
+target class: 1
+classification: correct
+
+id: 897471
+prediction: 2.3378676467743946
+target class: 1
+classification: correct
+

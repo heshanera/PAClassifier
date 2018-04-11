@@ -8,8 +8,10 @@ data = []
 data_size = 0;
 predictions_arr = []
 C = 1
-trainig_portion = 2/3
+training_portion = 2/3
 testing_portion = 1/3
+correct_train_data = 0
+correct_train_data_arr = []
 
 # read the CSV file at given path
 def load_data(file_path):
@@ -39,6 +41,10 @@ def test(testing_set):
     global predictions_arr
     predictions = [0]*2
     test_data_size = int(data_size * testing_set)
+    
+    with open('../predictions.txt', 'w') as the_file:
+        the_file.write('')
+    
     for i in range(data_size-test_data_size, data_size):
         vectors = create_vector(data[i],[0],[10])
         result = predict(vectors)
@@ -67,6 +73,11 @@ def classify(vectors):
     tmp_vec = [val * tmp_var for val in input_vector]
     weight_vector = weight_vector + tmp_vec
     
+    global correct_train_data
+    if loss == 0:
+#    if prediction > 0:
+        correct_train_data += 1
+    
     
 # predict the class
 # vectors: array of the input vector and the target class vector
@@ -78,10 +89,34 @@ def predict(vectors):
 #    input_vector = input_vector / numpy.linalg.norm(input_vector)
     target_vector = vectors[1]
     
-    prediction = target_vector[0] * numpy.dot( weight_vector, input_vector)
-    loss = max(0, 1 - prediction)  
     
-    if loss == 0:
+    prediction = numpy.dot( weight_vector, input_vector)
+    absPrediction = target_vector[0] * prediction
+    loss = max(0, 1 - absPrediction)  
+    
+    ######## writting the predictions to a file ###############
+    print()
+    print("id: ", vectors[2][0])
+    print("prediction: " , prediction)
+    print("target class: ", target_vector[0])
+    if absPrediction > 0:
+        classfiction = 'correct'
+    else:
+        classfiction = 'incorrect'    
+    print("classification: ", classfiction)
+    print()
+    
+    with open('../predictions.txt', 'a') as the_file:
+        the_file.write("id: " + vectors[2][0] +'\n')
+        the_file.write("prediction: " + str(prediction) +'\n')
+        the_file.write("target class: " + str(target_vector[0]) +'\n')
+        the_file.write("classification: " + str(classfiction) +'\n\n')
+    
+    ###########################################################
+    
+    ######## return prediction status (correct or incorrect) ###############
+#    if loss == 0:
+    if absPrediction > 0:
         return 1 # correct prediction
     else:
         return 0 # incorrect prediction
@@ -90,8 +125,9 @@ def predict(vectors):
 def print_results(trainig_iterations):
     global data_size
     global predictions_arr
+    global correct_train_data_arr
     test_data_size = int(data_size*(testing_portion))
-    print('Test Data Size: ' + str(test_data_size) + '\n')
+    train_data_size = int(data_size*(training_portion))
 #    print('data size: ' + str(test_data_size))
 #    print('correct: ' + str(predictions[1]))
 #    print('incorrect: ' + str(predictions[0]))
@@ -103,7 +139,8 @@ def print_results(trainig_iterations):
 #    print("%d\t\t%d\t\t%d\t\t%s" % (test_data_size, predictions[1], predictions[0], "{:.2%}".format(predictions[1]/test_data_size)))
 #    print("----------------------------------------------------------")
     
-    titles = ['Iterations', 'Correct', 'Incorrect', 'Accuracy']
+    print('Train Data Size: ' + str(train_data_size) + '\n')
+    titles = ['Iterations', 'Correct', 'Incorrect','Training']
     
     data = [titles]
     for i, d in enumerate(data):
@@ -114,11 +151,43 @@ def print_results(trainig_iterations):
     
     index = 0
     for predictions in predictions_arr:
-        data = list(zip([trainig_iterations[index]], [predictions[1]], [predictions[0]], ["{:.2%}".format(predictions[1]/test_data_size)]))
+        data = list(zip(
+            [trainig_iterations[index]], 
+            [correct_train_data_arr[index]], 
+            [(train_data_size*trainig_iterations[index])-correct_train_data_arr[index]], 
+            ["{:.2%}".format(correct_train_data_arr[index]/(train_data_size*trainig_iterations[index]))], 
+        ))
         index += 1
         for i, d in enumerate(data):
             line = '| '.join(str(x).ljust(12) for x in d)
             print(line)
+    
+    print('\n\n')
+    
+    print('Test Data Size: ' + str(test_data_size) + '\n')
+    titles = ['Iterations', 'Correct', 'Incorrect', 'Testing']
+    
+    data = [titles]
+    for i, d in enumerate(data):
+        line = '| '.join(str(x).ljust(12) for x in d)
+        print(line)
+        if i == 0:
+            print('-' * len(line))
+    
+    index = 0
+    for predictions in predictions_arr:
+        data = list(zip(
+            [trainig_iterations[index]], 
+            [predictions[1]], 
+            [predictions[0]],
+            ["{:.2%}".format(predictions[1]/test_data_size)]
+        ))
+        index += 1
+        for i, d in enumerate(data):
+            line = '| '.join(str(x).ljust(12) for x in d)
+            print(line)
+    
+    
             
 def reset_weights():
     global weight_vector
@@ -127,17 +196,22 @@ def reset_weights():
 
 def main():
     
-    global trainig_portion
+    global training_portion
     global testing_portion
+    
+    global correct_train_data
+    global correct_train_data_arr
     
     load_data('../datasets/breast_cancer_wisconsin_dataset.csv')
     
     iterations_arr = [1,2,10]
     for trainig_iterations in iterations_arr:
         for i in range(trainig_iterations):
-            train(trainig_portion) # train using 2/3 data
+            train(training_portion) # train using 2/3 data
         test(testing_portion) # test using 1/3 data
         reset_weights()
+        correct_train_data_arr.append(correct_train_data)
+        correct_train_data = 0
     print_results(iterations_arr)
   
 if __name__== "__main__":

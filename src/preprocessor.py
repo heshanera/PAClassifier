@@ -15,6 +15,7 @@ def to_number(data):
 def create_vector(ini_vector,exclude,target):
     refac_vector = []
     target_vector = []
+    exclude_vector = []
     if (len(exclude) == 0 and len(target) == 0):
         for value in ini_vector:
             int_value = to_number(value)
@@ -24,7 +25,7 @@ def create_vector(ini_vector,exclude,target):
         for value in ini_vector:
             i += 1
             if i in exclude:
-                continue
+                exclude_vector.append(value)
             elif i in target:
                 if value == '2':
                     target_vector.append(-1)
@@ -33,7 +34,7 @@ def create_vector(ini_vector,exclude,target):
             else:
                 int_value = to_number(value)
                 refac_vector.append(int_value)
-    return [refac_vector, target_vector]
+    return [refac_vector, target_vector, exclude_vector]
         
         
         
