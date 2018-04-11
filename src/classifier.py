@@ -95,16 +95,17 @@ def predict(vectors):
     loss = max(0, 1 - absPrediction)  
     
     ######## writting the predictions to a file ###############
-    print()
-    print("id: ", vectors[2][0])
-    print("prediction: " , prediction)
-    print("target class: ", target_vector[0])
-    if absPrediction > 0:
-        classfiction = 'correct'
-    else:
-        classfiction = 'incorrect'    
-    print("classification: ", classfiction)
-    print()
+    
+#    print()
+#    print("id: ", vectors[2][0])
+#    print("prediction: " , prediction)
+#    print("target class: ", target_vector[0])
+#    if absPrediction > 0:
+#        classfiction = 'correct'
+#    else:
+#        classfiction = 'incorrect'    
+#    print("classification: ", classfiction)
+#    print()
     
     with open('../predictions.txt', 'a') as the_file:
         the_file.write("id: " + vectors[2][0] +'\n')
